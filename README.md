@@ -29,6 +29,6 @@ A modern, responsive landing page designed for a construction and building compa
 
 | Desktop View | Mobile View |
 | :---: | :---: |
-| ![Desktop](preview.png) | ![Mobile](mpreview.png) |
+| ![Desktop](preview.png) 
 
 
