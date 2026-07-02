@@ -104,8 +104,7 @@ a{
 
 /* start navbar */
 button:not(.collapsed) .fa-bars::before {
-    content: "\f00d";
-    transition: transform 0.3s ease;
+    content: "\f00d";   /* \f00d == X*/
 }
 
 .navbar {
@@ -281,22 +280,22 @@ div.collapse.show ul li {
         content: "";
         position: absolute;
         background: linear-gradient(90deg, rgba(124, 58, 237, 1) 50%, rgba(255, 255, 255, 1) 100%);
-        width: 80px;
+        width: 50px;
         height: 2px;
         top: 50%;
         transform: translateY(-50%);
-        right: -100px;
+        right: -70px;
     }
 
     span::before {
         content: "";
         position: absolute;
         background: linear-gradient(270deg, rgba(124, 58, 237, 1) 50%, rgba(255, 255, 255, 1) 100%);
-        width: 80px;
+        width: 50px;
         height: 2px;
         top: 50%;
         transform: translateY(-50%);
-        left: -100px;
+        left: -70px;
     }
 }
 
